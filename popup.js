@@ -3,10 +3,10 @@ console.log('This is a popup!');
 function click() {
     let txt = document.getElementById("txt");
     if (txt) {
-        if (txt.innerHTML === "champu") {
+        if (txt.innerHTML === "change") {
             txt.innerHTML = "Original Text";
         } else {
-            txt.innerHTML = "champu";
+            txt.innerHTML = "change";
         }
     } else {
         console.error('Element with id "txt" not found.');
